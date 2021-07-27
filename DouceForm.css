@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* border: 1px solid hotpink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+marquee {
+    font-size: 25px;
+    text-transform: capitalize;
+    /* color: red; */
+    color: white;
+}
+
+
+/* .img-logo {
+    border: 1px solid blue;
+} */
+
+.img-logo img {
+    /* border: 1px solid gray; */
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+
+.heading-box {
+    background-color: #addecf;
+    margin: 10px;
+}
+
+.form-heading {
+    /* font-size: 25px; */
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#form {
+    /* border: 1px solid green; */
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+
+/* .inside-form {
+    border: 1px solid red;
+} */
+
+table {
+    /* border: 1px solid blue; */
+    padding: 20px;
+}
+
+td {
+    padding: 5px 0;
+}
+
+input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.lg_input {
+    width: 170%;
+    /* width: 200%; */
+    /* width: 250%; */
+}
+
+select {
+    /* width:60px; */
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    color: gray;
+}
+
+span {
+    color: red;
+}
+
+#month,
+#year {
+    margin-left: -80px;
+    /* margin-left: 20px; */
+}
+
+#dob {
+    border: 1px solid red;
+}
+
+.gen {
+    margin: 0 10px;
+    color: gray;
+}
+
+.button {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    float: right;
+}
+
+input[type="reset"] {
+    background-color: #25b31b;
+}
+
+input[type="submit"] {
+    background-color: dodgerblue;
+}
+
+.success {
+    color: green;
+}
+
+.error_msg {
+    color: red;
+}
+
+.New:hover {
+    box-shadow: 2px 4px 5px 5px gray;
+}
